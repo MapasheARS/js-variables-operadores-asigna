@@ -5,15 +5,15 @@
     "passes": 0,
     "pending": 0,
     "failures": 6,
-    "start": "2021-11-10T00:10:55.162Z",
-    "end": "2021-11-10T00:10:55.954Z",
-    "duration": 792
+    "start": "2022-09-15T02:34:24.649Z",
+    "end": "2022-09-15T02:34:24.801Z",
+    "duration": 152
   },
   "tests": [
     {
       "title": "numManzanas incrementa 5",
       "fullTitle": "cantidades numManzanas incrementa 5",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 1 to equal 6",
@@ -21,7 +21,7 @@
         "actual": "1",
         "expected": "6",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 1 to equal 6\n    at Context.<anonymous> (test/indexTest.js:3:28)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 1 to equal 6\n    at Context.<anonymous> (test/indexTest.js:3:28)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -35,7 +35,7 @@
         "actual": "5",
         "expected": "3",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 5 to equal 3\n    at Context.<anonymous> (test/indexTest.js:7:28)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 5 to equal 3\n    at Context.<anonymous> (test/indexTest.js:7:28)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -49,7 +49,7 @@
         "actual": "5",
         "expected": "10",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 5 to equal 10\n    at Context.<anonymous> (test/indexTest.js:13:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 5 to equal 10\n    at Context.<anonymous> (test/indexTest.js:13:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -63,26 +63,26 @@
         "actual": "6",
         "expected": "3",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 6 to equal 3\n    at Context.<anonymous> (test/indexTest.js:17:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 6 to equal 3\n    at Context.<anonymous> (test/indexTest.js:17:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
       "title": "totalPlatanos es igual a numPlatanos * precioPlatanos",
       "fullTitle": "totales totalPlatanos es igual a numPlatanos * precioPlatanos",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: totalPlatanos is not defined\n    at Context.<anonymous> (test/indexTest.js:23:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "stack": "ReferenceError: totalPlatanos is not defined\n    at Context.<anonymous> (test/indexTest.js:23:12)\n    at process.processImmediate (node:internal/timers:471:21)",
         "message": "totalPlatanos is not defined"
       }
     },
     {
       "title": "totalManznas es igual a numManzanas * precioManzanas",
       "fullTitle": "totales totalManznas es igual a numManzanas * precioManzanas",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: totalManzanas is not defined\n    at Context.<anonymous> (test/indexTest.js:27:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "stack": "ReferenceError: totalManzanas is not defined\n    at Context.<anonymous> (test/indexTest.js:27:12)\n    at process.processImmediate (node:internal/timers:471:21)",
         "message": "totalManzanas is not defined"
       }
     }
@@ -92,7 +92,7 @@
     {
       "title": "numManzanas incrementa 5",
       "fullTitle": "cantidades numManzanas incrementa 5",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 1 to equal 6",
@@ -100,7 +100,7 @@
         "actual": "1",
         "expected": "6",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 1 to equal 6\n    at Context.<anonymous> (test/indexTest.js:3:28)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 1 to equal 6\n    at Context.<anonymous> (test/indexTest.js:3:28)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -114,7 +114,7 @@
         "actual": "5",
         "expected": "3",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 5 to equal 3\n    at Context.<anonymous> (test/indexTest.js:7:28)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 5 to equal 3\n    at Context.<anonymous> (test/indexTest.js:7:28)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -128,7 +128,7 @@
         "actual": "5",
         "expected": "10",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 5 to equal 10\n    at Context.<anonymous> (test/indexTest.js:13:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 5 to equal 10\n    at Context.<anonymous> (test/indexTest.js:13:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -142,26 +142,26 @@
         "actual": "6",
         "expected": "3",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 6 to equal 3\n    at Context.<anonymous> (test/indexTest.js:17:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 6 to equal 3\n    at Context.<anonymous> (test/indexTest.js:17:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
       "title": "totalPlatanos es igual a numPlatanos * precioPlatanos",
       "fullTitle": "totales totalPlatanos es igual a numPlatanos * precioPlatanos",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: totalPlatanos is not defined\n    at Context.<anonymous> (test/indexTest.js:23:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "stack": "ReferenceError: totalPlatanos is not defined\n    at Context.<anonymous> (test/indexTest.js:23:12)\n    at process.processImmediate (node:internal/timers:471:21)",
         "message": "totalPlatanos is not defined"
       }
     },
     {
       "title": "totalManznas es igual a numManzanas * precioManzanas",
       "fullTitle": "totales totalManznas es igual a numManzanas * precioManzanas",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: totalManzanas is not defined\n    at Context.<anonymous> (test/indexTest.js:27:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "stack": "ReferenceError: totalManzanas is not defined\n    at Context.<anonymous> (test/indexTest.js:27:12)\n    at process.processImmediate (node:internal/timers:471:21)",
         "message": "totalManzanas is not defined"
       }
     }
